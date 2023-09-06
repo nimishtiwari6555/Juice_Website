@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&family=Merriweather:ital@1&family=Montserrat:wght@600;700&family=Mukta:wght@700&family=Poppins&family=Prompt&family=Roboto:wght@300;400;500;900&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   font-family: 'Ubuntu';
+
+}
+
+body{
+    background-color: rgba(253, 253, 247, 0.92);
+}
+
+.nav-item a:hover {
+    color:rgb(220, 18, 18) ;
+    border-bottom: 5px solid rgb(220, 18, 18);
+}  
+nav img{
+   
+    height: 30vh;
+    margin-top: -18vh;
+    margin-left: 5vw;
+
+}  
+.nav-item{
+    font-weight: 900;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(246 7 7);
+    border-bottom: 5px solid rgb(220, 18, 18);
+    
+}
+
+.navbar .btn{
+    color: rgb(220, 18, 18);
+    border-color: rgb(220, 18, 18);
+    margin-right: 5vw;
+}
+.btn:hover{
+background-color: rgb(220, 18, 18);
+color: white;
+}
+.nav-item {
+    margin-left: 2vw;
+}
+.card, .mb-3{
+    width: 100vw;
+    background-color: rgba(253, 253, 247, 0.92);
+    border: none;
+    padding-right: 5vw;
+ } 
+ .m1{
+    display: flex;
+    text-align: left;
+}
+.one{
+   width: 100vw;
+  padding-left: 8vw;
+}
+
+.one .heading1{
+    font-size: 60px;
+    color: rgb(220, 18, 18);
+    font-weight: bolder;
+}
+.one .heading2{
+    font-size: 60px;
+    font-weight: bolder;
+    
+}
+.one p{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(74, 74, 74);
+    text-align: justify;
+}
+.btn-count{
+    display: flex;
+    padding-top: 2vh;
+    width: 90%;
+    justify-content: space-between;
+    
+}
+.btn-count button{
+    width: 130px;
+    height: 37px;
+    background-color: rgb(220, 18, 18);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.btn-count button:hover{
+    color: rgb(220, 18, 18);
+    background: transparent;
+    border: 1px solid rgb(220, 18, 18);
+}
+.btn-count span{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(74, 74, 74);
+}
+.btn-count p{
+    font-size: 15px;
+}
+.two{
+    width: 50vw;
+  
+}
+.two img{
+   width: 100%;
+   height: 100%;
+}
+
+footer{
+    width: 100vw;
+    display: flex;
+   
+}
+footer .bottel {
+   
+    padding: 0 0 0 70px;
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .bottel .bottel1{
+    background-color: white;
+    width: 10vw;
+    height: 27vh;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px rgb(254, 160, 160);
+    padding-left: 5px;
+  
+}
+footer .bottel .bottel1:hover{
+    
+    box-shadow: 1px 1px 10px rgb(246, 32, 32);
+  
+  
+}
+footer .bottel .bottel1 img{
+    width: 100%;
+    height: 70%;
+   
+}
+footer .bottom{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(74, 74, 74);
+    font-weight: 900;
+    margin-top: -22px;
+}
+footer .bottom .plus{
+   
+    width: 27px;
+    border-radius: 10px 0 10px 0;
+    background-color: rgb(252, 192, 192);
+    text-align: center;
+    font-size: 27px;
+   
+}
+.off{
+    width: 30vw;
+    height: 100px;
+margin-right: -160px;
+border-left: 4px solid rgb(220, 18, 18);
+padding-left: 20px;
+}
+.off h2{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.off h2 span{
+    color: rgb(220, 18, 18);
+}
+.another-bottom{
+    display: flex;
+}
+footer .off p{
+    margin-top: 15px;
+   color:rgb(74, 74, 74) ;
+   margin-right: 10px;
+}
+footer .off .arrow{
+    margin-top: 15px;
+    color: rgb(220, 18, 18);
+}
+.img img{
+    margin-top: -40px;
+   width: 300px;
+   margin-left: 60px;
+}
+.main2{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(252, 251, 249, 0.92);
+   
+}
+.main2 .portion{
+    display: flex;
+    width: 100vw;
+    box-sizing: border-box;
+    height: 50vh;
+    background-color: rgb(252, 192, 192);
+    padding: 50px 120px 50px 120px;
+    margin-top: 100px;
+}
+.portion .portion1{
+    width: 50vw;
+    height: 40vh;
+}
+.portion .portion1 h2{
+    color: rgb(220, 18, 18);
+    font-weight: bolder;
+font-size: 30px;
+}
+
+.portion .portion1 .a-juice{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(74, 74, 74);
+}
+
+.portion .portion2{
+    width: 20vw;
+    height: 40vh;
+  border-top: 5px solid rgb(220, 18, 18);
+  border-left: 5px solid rgb(220, 18, 18);
+    margin-left: 150px;
+    margin-top: -20px;
+    background-color: rgba(252, 251, 249, 0.92);
+   border-radius: 0 20px 0 20px;
+   box-shadow: 1px 1px 10px rgb(111, 109, 109);
+ 
+  
+}
+.portion .portion2:hover{
+
+   box-shadow: 1px 1px 20px rgb(110, 107, 107);
+ 
+  
+}
+.portion .portion2 img{
+   
+   width: 100%;
+   height: 100%;
+   
+}
+.list {
+  
+   padding: 50px 8vw;
+  
+}
+.list h1{
+    text-align: center;
+    margin: 0 0 10px -2px;
+    font-size: 45px;
+    font-weight: 900;
+    
+}
+.list .bottel{
+    border-bottom: 5px solid rgb(220, 18, 18);
+    border-left: 5px solid rgb(220, 18, 18);
+    width: 86vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    border-radius: 0 0 20px 20px;
+}
+.list .bottel .bottel1{
+    background-color: white;
+    width: 14vw;
+    height: 40vh;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(248, 196, 196);
+    padding-left: 5px;
+   margin-top: 20px;
+  
+}
+.list .bottel .bottel1:hover{
+    
+    box-shadow: 1px 1px 10px rgb(246, 35, 35);
+    
+}
+.bottel1 p{
+    font-weight: bold;
+}
+.list .bottel .bottel1 img{
+    width: 100%;
+    height: 80%;
+   
+   
+}
+.list h1 span{
+  
+    color: rgb(220, 18, 18);
+}
+.list h1 img{
+    width: 70px;
+    margin-bottom: -10px;
+}
+.list .bottom{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(74, 74, 74);
+    font-weight: 900;
+    margin-top: -22px;
+}
+.list .bottom .plus{
+    width: 27px;
+    border-radius: 10px 0 10px 0;
+    background-color: rgb(252, 192, 192);
+    text-align: center;
+    font-size: 27px;
+  
+   
+}
+.main3{
+    margin-top: 150px;
+    width: 100vw;
+    height: 150vh;
+    background-color: rgba(252, 251, 249, 0.92);
+   
+}
+.main3 .box{
+    
+    margin: 0 7vw 0 7vw;
+    
+}
+.main3 h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+.main3 h1 span{
+    color: rgb(220, 18, 18);
+}
+.main3 h1 img{
+    width: 70px;
+    margin-bottom: -10px;
+}
+
+
+.main3 .bottel{
+     
+    width: 86vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    border-radius: 0 0 20px 20px;
+}
+.main3 .bottel .bottel1{
+    background-color: white;
+    width: 14vw;
+    height: 40vh;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(248, 196, 196);
+    padding-left: 5px;
+   margin-top: 20px;
+  
+}
+.main3 .bottel .bottel1:hover{
+    
+    box-shadow: 1px 1px 10px rgb(246, 35, 35);
+    
+}
+.bottel1 p{
+    font-weight: bold;
+}
+.main3 .bottel .bottel1 img{
+    width: 100%;
+    height: 80%;
+   
+   
+}
+
+.main3 .bottom{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(74, 74, 74);
+    font-weight: 900;
+    margin-top: -22px;
+}
+.main3 .bottom .plus{
+    width: 27px;
+    border-radius: 10px 0 10px 0;
+    background-color: rgb(252, 192, 192);
+    text-align: center;
+    font-size: 27px;
+   
+}
+
+#newsletter {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(252, 192, 192);
+    
+}
+
+#newsletter h4 {
+    margin-left: -80px;
+    font-size: 35px;
+    font-weight: 900;
+  color: black;
+}
+
+#newsletter p {
+    margin-left: -80px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter p span {
+    
+    color: rgb(220, 18, 18);
+    font-weight: 900;
+}
+.section-p1 .img123{
+    margin-top: -20px;
+    margin-left: -100px;
+    width: 200px;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input {
+  font-weight: bold;
+ 
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    font-size: 20px;
+    width: 200px;
+    border: none;
+    font-weight: bolder;
+    background-color: rgb(220, 18, 18);
+    color: #fff;
+    
+  border-radius: 0 10px 10px 0;
+}
+#newsletter button:hover {
+    
+    background-color: #fff;
+    color: rgb(220, 18, 18);
+    
+}
+.section-p12 {
+    
+    display: flex;
+    flex-wrap: wrap;
+  padding: 0 5vw;
+}
+.section-p12 img{
+    margin-top: -20px;
+    margin-left: -50px;
+    width: 200px;
+}
+
+.section-p12 .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+
+
+.section-p12 h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.section-p12 p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+.section-p12 a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.section-p12 .follow {
+    margin-top: 20px;
+}
+
+.section-p12 .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+.section-p12 .install .row img {
+    border: 1px solid rgb(220, 18, 18);
+    border-radius: 6px;
+}
+
+.section-p12 .install img {
+    margin: 10px 0 15px 0;
+}
+
+.section-p12 .follow i:hover,
+.section-p12 a:hover {
+    color: rgb(220, 18, 18);
+    font-weight: 900;
+}
+
+.section-p12 .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 391px) {
+    footer{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    
+       
+    }
+    footer .bottel {
+       display: none;
+    }
+    .off{
+        width: 100vw;
+        height: 100px;
+    margin-top: 5vh;
+    border-left: none;
+    
+    }
+    
+    
+    .img img{
+        
+        width: 100vw;
+      
+        float: right;
+    }
+
+    
+    .main2 .portion{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        box-sizing: border-box;
+        height: 205vh;
+        background-color: rgba(249, 153, 167, 0.696);
+        
+        border-radius: 0 0 0 15px;
+     
+    padding: 0;
+        margin-top: 0;
+        text-align: justify;
+    }
+    .portion .portion1{
+        width: 100vw;
+        height: 150vh;
+        padding: 2vh 10vw;
+        
+    }
+   
+    
+    .portion .portion2{
+    
+        width: 100vw;
+        height: 40vh;
+     margin: 10vh 0 0 0;
+     
+    }
+    
+    .list {
+      margin: 8vh 0 0 0;
+     padding: 0;
+      
+    }
+    
+    .list h1 img{
+        display: none;
+    }
+    .list .bottel{
+       
+       border: none;
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+       margin: 0 15vw;
+        padding: 0;
+      
+    }
+    .list .bottel .bottel1{
+       
+        margin: 0;
+        width: 70vw;
+        height: 60vh;
+        
+       margin-top: 25px;
+      
+    }
+    .main3{
+        margin-top: 470vh;
+        width: 100vw;
+        height: 300vh;
+      
+    }
+    .main3 .box{
+        
+        margin: 0;
+        
+    }
+    
+    
+    .main3 h1 img{
+        display: none;
+    }
+    
+    
+    .main3 .bottel{
+      
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+       margin: 0 15vw;
+        padding: 0;
+    }
+    .main3 .bottel .bottel1{
+       
+        margin: 0;
+        width: 70vw;
+        height: 60vh;
+        
+       margin-top: 25px;
+      
+      
+    }
+    
+    .main3 .bottel .bottel1 img{
+        width: 100%;
+        height: 80%;
+       
+       
+    }
+    
+    .main3 .bottom{
+        display: flex;
+        justify-content: space-between;
+        color: rgb(74, 74, 74);
+        font-weight: 900;
+        margin-top: -22px;
+    }
+    .main3 .bottom .plus{
+        width: 27px;
+        border-radius: 10px 0 10px 0;
+        background-color: rgb(252, 192, 192);
+        text-align: center;
+        font-size: 27px;
+       
+    }
+
+    #newsletter {
+        margin: 0;
+        margin-top: 720vh;
+       height: 50vh;
+       padding: 0 10vw;
+      text-align: center;
+        /* margin-bottom: 100px;
+        width: 100vw;
+        height: 30vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: rgb(252, 192, 192);
+         */
+    }
+    
+    #newsletter h4 {
+        margin: 0;
+        font-size: 30px;
+        
+    }
+    
+    #newsletter p {
+       margin: 0;
+        
+        font-weight: 500;
+        
+    }
+    
+   
+    .section-p1 .img123{
+      display: none;
+    }
+    
+    #newsletter .form {
+        display: flex;
+        width: 100%;
+    }
+    
+   
+    #newsletter button {
+        font-size: 18px;
+    }
+    .section-p12 {
+        margin-top: 10vh;
+       
+      padding: 0 20vw;
+    }
+    
+    
+   
+    
+    
+    
+    .section-p12 h4 {
+        font-size: 15px;
+        padding-bottom: 0;
+    }
+    
+    
+  }
